@@ -3,7 +3,7 @@ import ColorPlate from "./";
 export default function ColorLayout({ children }) {
   return (
     <div>
-      {/* <ColorPlate /> */}
+      <ColorPlate />
       <main>{children}</main>
     </div>
   );

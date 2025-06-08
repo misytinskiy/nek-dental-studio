@@ -1,8 +1,8 @@
 import Breadcrumbs from "@/components/Breadcrumbs";
-import Features from "../Home/Features";
-import Funfact from "../Home/Funfact";
-import Services from "../Home/Services";
-import Testimonial from "../Home/Testimonials";
+import Features from "../[locale]/(site)/Home/Features";
+import Funfact from "../[locale]/(site)/Home/Funfact";
+import Services from "../[locale]/(site)/Home/Services";
+import Testimonial from "../[locale]/(site)/Home/Testimonials";
 import Header from "@/components/Header/Header";
 
 export default function Testimonials() {

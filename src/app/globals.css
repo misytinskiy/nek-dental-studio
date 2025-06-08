@@ -10,3 +10,19 @@
 .department-right img {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
+
+.lang-btn {
+  background: transparent;
+  border: 1px solid var(--primary-color);
+  color: var(--primary-color);
+  padding: 4px 8px;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.lang-btn.active,
+.lang-btn:hover {
+  background: var(--primary-color);
+  color: #fff;
+}

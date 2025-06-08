@@ -1,0 +1,138 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "contact": "Contact",
+    "appointment": "Appointment",
+    "doctors": "Doctors"
+  },
+
+  "hero": {
+    "title": "Experience personalized treatment in a <span>comfortable</span> and welcoming environment, where your dental health is our <span>priority.</span>",
+    "subtitle": "Your smile is our mission. Proudly serving our community with quality dental care and a touch of compassion.",
+    "button": "Get Appointment"
+  },
+
+  "about": {
+    "missionTitle": "Our mission",
+    "missionP1": "At Nek Dental Studio, we are more than just a dental practice; we are a community of passionate dental professionals dedicated to crafting beautiful smiles and enhancing oral health. With a team of highly skilled dentists, hygienists, and dental assistants, we offer a comprehensive range of services from preventive care and routine check-ups to advanced cosmetic dentistry and oral surgery.",
+    "missionP2": "Our state-of-the-art facility is equipped with the latest in dental technology, ensuring every treatment is performed with the utmost precision and comfort. At Nek Dental Studio, we believe in a patient-centered approach, where every visit is tailored to meet your individual needs and expectations. Our mission is to provide exceptional dental care in a welcoming and relaxing environment, helping you to achieve and maintain a healthy, radiant smile."
+  },
+
+  "funfacts": {
+    "patients": "15331+ PATIENTS SMILED BRIGHTER",
+    "cleanings": "9841+ DENTAL CLEANINGS DONE",
+    "dentures": "332+ DENTURES FITTED",
+    "pediatric": "3213+ PEDIATRIC APPOINTMENTS"
+  },
+
+  "features": {
+    "advanced": {
+      "title": "ADVANCED DENTAL PROCEDURES",
+      "text": "Cutting-edge technology for all treatments, ensuring effective and quick results."
+    },
+    "pediatric": {
+      "title": "PEDIATRIC DENTISTRY",
+      "text": "Friendly care for children, making dental health accessible and fun."
+    },
+    "preventive": {
+      "title": "PREVENTATIVE CARE",
+      "text": "Regular exams and cleanings to prevent issues, with advice on oral health maintenance."
+    },
+    "aesthetic": {
+      "title": "AESTHETIC DENTISTRY",
+      "text": "Tailored aesthetic services to enhance your smile, including whitening and orthodontics."
+    },
+    "emergency": {
+      "title": "EMERGENCY DENTAL SERVICES",
+      "text": "Fast relief for dental emergencies to alleviate pain and prevent complications."
+    },
+    "restorative": {
+      "title": "RESTORATIVE DENTISTRY",
+      "text": "Repairing or replacing damaged teeth to restore function and confidence in your smile."
+    }
+  },
+
+  "cta": {
+    "heading": "Book an Appointment.",
+    "sub": "Get personalized dental care quickly – just send us a message on WhatsApp!",
+    "button": "Contact Now"
+  },
+
+  "departments": {
+    "0": {
+      "icon": "icofont-stethoscope",
+      "title": "Therapy",
+      "text": "Experience comprehensive dental therapy services, focusing on preventing, diagnosing, and treating oral diseases. Our personalized treatments ensure long-term dental health."
+    },
+    "1": {
+      "icon": "icofont-tooth",
+      "title": "Implantology",
+      "text": "Transform your smile with our state-of-the-art dental implants. From single tooth replacements to full arch restorations, we provide solutions that look, feel, and function like natural teeth."
+    },
+    "2": {
+      "icon": "icofont-bone",
+      "title": "Orthopedics",
+      "text": "Discover the perfect blend of function and aesthetics with our dental orthopedic services. We specialize in correcting dental and jaw irregularities, ensuring optimal oral health and appearance."
+    },
+    "3": {
+      "icon": "icofont-xray",
+      "title": "Orthodontics",
+      "text": "Achieve a perfectly aligned smile with our orthodontic services. We offer a variety of braces and aligners to suit every age and lifestyle, guiding your teeth into their ideal position."
+    },
+    "4": {
+      "icon": "icofont-surgeon-alt",
+      "title": "Surgery",
+      "text": "Trust our expert team for all your oral surgery needs. From wisdom tooth extractions to corrective jaw surgery, we provide safe, effective treatments to address complex dental issues."
+    },
+    "5": {
+      "icon": "icofont-baby-milk-bottle",
+      "title": "Pediatrics",
+      "text": "Making dental care fun and fearless for our youngest patients. Our children's dentistry services focus on prevention, education, and gentle treatment to ensure a lifetime of healthy smiles."
+    }
+  },
+
+  "team": {
+    "heading": "MEET OUR TEAM OF SPECIALISTS.",
+    "sub": "We make sure that your oral health are in good hands.",
+    "members": {
+      "tamarD": { "name": "Dr. Tamar Dgebuadze", "role": "Therapist" },
+      "tamarM": { "name": "Dr. Tamar Mgebrishvili", "role": "Periodontist" },
+      "irakli": { "name": "Dr. Irakli Beradze", "role": "Orthopedic dentist" },
+      "nino": {
+        "name": "Dr. Nino Martiashvili",
+        "role": "Therapist, periodontist, surgeon"
+      }
+    }
+  },
+
+  "footer": {
+    "socialTitle": "Find Us on Social Media",
+    "quickTitle": "Quick Links",
+    "open": {
+      "title": "Open Hours",
+      "weekdays": "Monday – Friday",
+      "weekend": "Saturday – Sunday",
+      "closed": "Closed"
+    }
+  },
+  "pages": {
+    "doctors": {
+      "title": "Meet our team of specialists",
+      "menu": "Doctors"
+    },
+    "pricing": {
+      "title": "Service",
+      "menu": "Service",
+      "heading": "Current Treatment Fees",
+      "desc": "Choose a direction to see detailed prices for every service."
+    },
+    "contact": {
+      "title": "Contact Us",
+      "menu": "Contact Us",
+      "hoursTitle": "Working Hours",
+      "hoursSub": "Feel free to visit us during the hours below."
+    }
+  }
+}

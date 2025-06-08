@@ -51,7 +51,7 @@ export default function RootLayout({ children }) {
           <Preloader />
           <ColorLayout />
           {children}
-          <Footer />
+          {/* <Footer /> */}
           <ScrollTop />
           <Script src="/js/bootstrap.min.js"></Script>
         </>
