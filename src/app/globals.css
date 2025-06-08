@@ -1,0 +1,12 @@
+@import "./styles/normalize.module.css";
+@import "./styles/styles.module.css";
+@import "./styles/responsive.module.css";
+
+.department-right img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.department-right img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}

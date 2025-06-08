@@ -1,0 +1,31 @@
+.custom-price-table th,
+.custom-price-table td {
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid #e7e7e7;
+}
+
+.custom-price-table thead th {
+  background: #9c4b8f;
+  color: #fff;
+  border-color: #9c4b8f;
+  font-weight: 600;
+}
+
+.custom-price-table tbody tr:hover {
+  background: #f4f9ff;
+}
+
+.custom-price-table .text-end {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.custom-price-table tbody td th {
+  cursor: default;
+  user-select: none;
+}
+
+th {
+  cursor: default;
+  user-select: none;
+}
