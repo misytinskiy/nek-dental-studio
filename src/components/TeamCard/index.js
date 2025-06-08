@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { Tilt } from "react-tilt";
 import TeamImg1 from "../../../public/img/team1.jpg";
+import { useLocale } from "next-intl";
 
 const defaultOptions = {
   reverse: false, // reverse the tilt direction
@@ -19,6 +20,7 @@ const defaultOptions = {
 
 export default function TeamCard(props) {
   const { tilt, image, name, designation } = props;
+  const locale = useLocale();
 
   return (
     <>
@@ -35,7 +37,9 @@ export default function TeamCard(props) {
           <div className="t-bottom">
             <p>{designation ? designation : "Neurosurgeon"}</p>
             <h2>
-              <Link href="/contact">{name ? name : "Collis Molate"}</Link>
+              <Link href={`/${locale}/contact`}>
+                {name ? name : "Collis Molate"}
+              </Link>
             </h2>
           </div>
         </div>

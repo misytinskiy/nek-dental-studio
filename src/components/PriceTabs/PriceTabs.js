@@ -4,11 +4,11 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 import { useTranslations } from "next-intl";
 import "react-tabs/style/react-tabs.css";
 import PriceTable from "../PriceTable/PriceTable";
-import priceData from "./priceData"; // вынесён выше (оставляем как есть)
+import priceData from "./priceData";
 
 export default function PriceTabs() {
   const t = useTranslations("departments");
-  const categories = Object.keys(priceData); // Therapy, Implantology …
+  const categories = Object.keys(priceData);
 
   return (
     <Tabs selectedTabClassName="react-tabs__tab--selected custom-selected">

@@ -56,8 +56,8 @@ export default function Contact() {
                 <div className="single-info">
                   <i className="icofont-google-map"></i>
                   <div className="content">
-                    <h3>65 Zakaria Paliashvili St.</h3>
-                    <p>Tbilisi</p>
+                    <h3>{t("addressLine1")}</h3>
+                    <p>{t("addressLine2")}</p>
                   </div>
                 </div>
               </div>
@@ -67,9 +67,6 @@ export default function Contact() {
                   <i className="icofont icofont-wall-clock"></i>
                   <div className="content">
                     <h3>{tFooter("weekdays")}: 11:00 – 19:00</h3>
-                    <p>
-                      {tFooter("weekend")} — {tFooter("closed")}
-                    </p>
                   </div>
                 </div>
               </div>

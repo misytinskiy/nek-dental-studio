@@ -1,46 +1,55 @@
 "use client";
 
-import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import LocalizedLink from "@/components/LocalizedLink";
 
 export default function Navbar() {
   const pathname = usePathname();
+  const locale = useLocale();
   const t = useTranslations("nav");
+
+  /* удобный префикс */
+  const base = `/${locale}`;
 
   return (
     <div className="main-menu">
       <nav className="navigation">
         <ul className="nav menu">
           <li>
-            <Link href="/">{t("home")}</Link>
+            <LocalizedLink
+              href="/"
+              className={pathname === base ? "active" : ""}
+            >
+              {t("home")}
+            </LocalizedLink>
           </li>
 
           <li>
-            <Link
+            <LocalizedLink
               href="/doctors"
-              className={pathname === "/doctors" ? "active" : ""}
+              className={pathname === `${base}/doctors` ? "active" : ""}
             >
               {t("doctors")}
-            </Link>
+            </LocalizedLink>
           </li>
 
           <li>
-            <Link
+            <LocalizedLink
               href="/service"
-              className={pathname === "/service" ? "active" : ""}
+              className={pathname === `${base}/service` ? "active" : ""}
             >
               {t("services")}
-            </Link>
+            </LocalizedLink>
           </li>
 
           <li>
-            <Link
+            <LocalizedLink
               href="/contact"
-              className={pathname === "/contact" ? "active" : ""}
+              className={pathname === `${base}/contact` ? "active" : ""}
             >
               {t("contact")}
-            </Link>
+            </LocalizedLink>
           </li>
         </ul>
       </nav>

@@ -1,7 +1,7 @@
 "use client";
 
-import Link from "next/link";
 import { useTranslations } from "next-intl";
+import LocalizedLink from "@/components/LocalizedLink";
 
 export default function Links() {
   const tTitle = useTranslations("footer");
@@ -16,24 +16,24 @@ export default function Links() {
           <div className="col-lg-6 col-md-6 col-12">
             <ul>
               <li>
-                <Link href="/">
+                <LocalizedLink href="/">
                   <i className="fa fa-caret-right" /> {tNav("home")}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link href="/doctors">
+                <LocalizedLink href="/doctors">
                   <i className="fa fa-caret-right" /> {tNav("doctors")}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link href="/service">
+                <LocalizedLink href="/service">
                   <i className="fa fa-caret-right" /> {tNav("services")}
-                </Link>
+                </LocalizedLink>
               </li>
               <li>
-                <Link href="/contact">
+                <LocalizedLink href="/contact">
                   <i className="fa fa-caret-right" /> {tNav("contact")}
-                </Link>
+                </LocalizedLink>
               </li>
             </ul>
           </div>

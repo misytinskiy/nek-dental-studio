@@ -1,18 +1,21 @@
 "use client";
 
-import { useState } from "react";
+import { useTranslations } from "next-intl";
 import "./workhour-table.css";
 
 export default function WorkHour() {
-  const [hours] = useState([
-    { id: 1, day: "Monday", time: "11:00 – 19:00" },
-    { id: 2, day: "Tuesday", time: "11:00 – 19:00" },
-    { id: 3, day: "Wednesday", time: "11:00 – 19:00" },
-    { id: 4, day: "Thursday", time: "11:00 – 19:00" },
-    { id: 5, day: "Friday", time: "11:00 – 19:00" },
-    { id: 6, day: "Saturday", time: "11:00 – 19:00" },
-    { id: 7, day: "Sunday", time: "11:00 – 19:00" },
-  ]);
+  const w = useTranslations("week");
+  const tOpen = useTranslations("footer.open");
+
+  const hours = [
+    { id: 1, day: w("mon"), time: "11:00 – 19:00" },
+    { id: 2, day: w("tue"), time: "11:00 – 19:00" },
+    { id: 3, day: w("wed"), time: "11:00 – 19:00" },
+    { id: 4, day: w("thu"), time: "11:00 – 19:00" },
+    { id: 5, day: w("fri"), time: "11:00 – 19:00" },
+    { id: 6, day: w("sat"), time: tOpen("closed") },
+    { id: 7, day: w("sun"), time: tOpen("closed") },
+  ];
 
   return (
     <div className="table-responsive workhour-table">

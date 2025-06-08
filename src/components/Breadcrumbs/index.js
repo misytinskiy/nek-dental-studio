@@ -1,30 +1,32 @@
-import Link from "next/link";
+"use client";
 
-export default function Breadcrumbs(props) {
-  const { title, menuText } = props;
+import { useTranslations } from "next-intl";
+import LocalizedLink from "@/components/LocalizedLink";
+
+export default function Breadcrumbs({ title, menuText }) {
+  const tNav = useTranslations("nav");
 
   return (
-    <>
-      <div className="breadcrumbs overlay">
-        <div className="container">
-          <div className="bread-inner">
-            <div className="row">
-              <div className="col-12">
-                <h2>{title ? title : "Meet Our Qualified Doctors"}</h2>
-                <ul className="bread-list">
-                  <li>
-                    <Link href="/">Home</Link>
-                  </li>
-                  <li>
-                    <i className="icofont-simple-right"></i>
-                  </li>
-                  <li className="active">{menuText ? menuText : "Doctors"}</li>
-                </ul>
-              </div>
+    <div className="breadcrumbs overlay">
+      <div className="container">
+        <div className="bread-inner">
+          <div className="row">
+            <div className="col-12">
+              <h2>{title ?? tNav("teamTitle")}</h2>
+
+              <ul className="bread-list">
+                <li>
+                  <LocalizedLink href="/">{tNav("home")}</LocalizedLink>
+                </li>
+                <li>
+                  <i className="icofont-simple-right" />
+                </li>
+                <li className="active">{menuText ?? tNav("doctors")}</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }

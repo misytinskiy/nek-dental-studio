@@ -2,6 +2,10 @@
 @import "./styles/styles.module.css";
 @import "./styles/responsive.module.css";
 
+:root {
+  --primary-color: #9c4b8f;
+}
+
 .department-right img {
   border-radius: 12px;
   overflow: hidden;

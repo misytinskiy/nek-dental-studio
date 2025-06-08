@@ -2,6 +2,7 @@ import { NextIntlClientProvider } from "next-intl";
 import { notFound } from "next/navigation";
 import { setRequestLocale } from "next-intl/server";
 import Footer from "@/components/Footer";
+import Header from "@/components/Header/Header";
 
 export const runtime = "edge";
 export const dynamic = "force-dynamic";
@@ -22,6 +23,7 @@ export default async function LocaleLayout({ children, params: { locale } }) {
 
   return (
     <NextIntlClientProvider locale={locale} messages={messages}>
+      <Header />
       {children}
       <Footer />
     </NextIntlClientProvider>

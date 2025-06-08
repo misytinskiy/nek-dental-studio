@@ -5,7 +5,8 @@
     "services": "Services",
     "contact": "Contact",
     "appointment": "Appointment",
-    "doctors": "Doctors"
+    "doctors": "Doctors",
+    "teamTitle": "Meet Our Qualified Doctors"
   },
 
   "hero": {
@@ -117,6 +118,7 @@
       "closed": "Closed"
     }
   },
+
   "pages": {
     "doctors": {
       "title": "Meet our team of specialists",
@@ -132,7 +134,109 @@
       "title": "Contact Us",
       "menu": "Contact Us",
       "hoursTitle": "Working Hours",
-      "hoursSub": "Feel free to visit us during the hours below."
+      "hoursSub": "Feel free to visit us during the hours below.",
+      "addressLine1": "65 Zakaria Paliashvili St.",
+      "addressLine2": "Tbilisi"
     }
+  },
+
+  "prices": {
+    "head": { "service": "Service", "price": "Price" },
+
+    "scaling": "Scaling",
+    "complexCleaning": "Complex cleaning",
+    "cleaningAirflow": "Cleaning AIRFLOW",
+    "deepCleaningPerio": "Repeated deep cleaning (perio)",
+    "gumTreatmentVector": "Gum treatment with \"Vector\" device",
+    "visiography": "Dental Visiography (Dental X-ray)",
+    "rootCanal": "Root canal treatment",
+    "periodontitis": "Periodontitis",
+    "healingMedOneCanal": "Placing healing meds (1 canal)",
+    "marylandBridge": "Maryland bridge",
+    "cavityImprint": "Cavity treatment (imprint)",
+    "raberdamSystem": "Raberdam system",
+    "retractor": "Retractor",
+    "caries": "Caries",
+    "restorationVeneer": "Restoration (therapeutic veneer)",
+    "restorationMocaf": "Restoration with mocaf",
+    "siliconeKey": "Silicone key",
+    "cultUnderCrown": "Cult (under the crown)",
+    "endoWhitening": "Endo whitening",
+    "whiteningCaps": "Tooth whitening with \"caps\"",
+
+    "implRoot": "\"ROOT\" (Switzerland)",
+    "implMisSeven": "\"MIS SEVEN\" (USA)",
+    "implStraumann": "\"STRAUMANN\" (Switzerland)",
+    "implMisCi": "\"MIS CI\" (USA)",
+    "implSwedenMartina": "\"SWEDEN&MARTINA\" (Italy)",
+    "gumCorrection": "Gum correction (per scale)",
+    "sinusLiftOpen": "Open sinus-lifting",
+    "sinusLiftClosed": "Closed sinus-lifting",
+    "boneAugmentation": "Bone augmentation",
+    "softTissueAugmentation": "Soft-tissue augmentation",
+    "tempAbutment": "Temporary abutment with teeth",
+    "gumShaper": "Gum shaper",
+    "surgicalTemplatePart": "Surgical template (partial)",
+    "surgicalTemplateJaw": "Surgical template (1 jaw)",
+
+    "ceramicVeneer": "Ceramic veneer",
+    "zirconCrown": "Zirconia ceramic crown",
+    "metalCrown": "Metal-ceramic crown",
+    "metalCrownImplant": "Metal-ceramic on implant (fixed)",
+    "zirconImplant": "Zircon ceramic on implant (bolted)",
+    "microProsthesis": "Micro plate prosthesis",
+    "removableProsthesis": "Removable prosthesis (1 jaw)",
+    "bugleProsthesis": "Bugle prosthesis (1 jaw)",
+    "valplastProsthesis": "Valplast prosthesis (1 jaw)",
+    "tempToothOne": "Temporary tooth (1 unit)",
+    "tempToothMany": "Temporary teeth (2+)",
+    "metalInlay": "Metal inlay",
+    "zirconInlay": "Zircon inlay",
+    "arcProsthesisLock": "Arced prosthesis with lock (1 jaw)",
+    "arcProsthesisAttach": "Arced prosthesis with attachments (1 jaw)",
+
+    "damonQ": "Braces system \"DAMON Q\"",
+    "damonClear": "Braces system \"DAMON CLEAR\"",
+    "americanOrtho": "Braces system \"AMERICAN ORTHODONTICS\"",
+    "ormco": "Braces system \"ORMCO\"",
+    "inspireIce": "Braces system \"INSPIRE ICE\"",
+    "correctionStandard": "Correction (standard braces)",
+    "correctionDamon": "Correction (Damon system)",
+    "attachBracket": "Attaching the bracket",
+    "attachLostStd": "Attach lost bracket (standard)",
+    "attachLostDamon": "Attach lost bracket (Damon)",
+    "retainerOneJaw": "Retainer (1 jaw)",
+    "retainerCap": "Retainer cap",
+    "miniImplant": "MINI implant",
+    "myobrace": "Myobrace",
+
+    "regionalAnesthesia": "Regional anesthesia",
+    "infiltrativeAnesthesia": "Infiltrative anesthesia",
+    "extraction": "Extraction",
+    "complexExtraction": "Complicated extraction",
+    "rootExtraction": "Root extraction",
+    "tooth8Extraction": "8th tooth extraction",
+    "tooth8Retention": "8th tooth retention (dystopia)",
+    "exostosisSection": "Exostosis section",
+    "abscessRemoval": "Abscess removal",
+    "curettage": "Curettage",
+    "suturing": "Suturing",
+
+    "cleaning": "Cleaning",
+    "cariesChild": "Caries",
+    "pulpit": "Pulpit",
+    "periodontitisChild": "Periodontitis",
+    "fissureSeal": "Sealing fissures",
+    "milkExtraction": "Milk tooth extraction",
+    "frenulumCorrection": "Frenulum correction"
+  },
+  "week": {
+    "mon": "Monday",
+    "tue": "Tuesday",
+    "wed": "Wednesday",
+    "thu": "Thursday",
+    "fri": "Friday",
+    "sat": "Saturday",
+    "sun": "Sunday"
   }
 }

@@ -49,9 +49,8 @@ export default function RootLayout({ children }) {
       <body className={poppins.className}>
         <>
           <Preloader />
-          <ColorLayout />
+          {/* <ColorLayout /> */}
           {children}
-          {/* <Footer /> */}
           <ScrollTop />
           <Script src="/js/bootstrap.min.js"></Script>
         </>
