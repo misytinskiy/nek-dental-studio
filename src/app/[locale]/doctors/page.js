@@ -4,10 +4,10 @@ import Breadcrumbs from "@/components/Breadcrumbs";
 import TeamCard from "@/components/TeamCard";
 import { useTranslations } from "next-intl";
 
-import TeamImg1 from "../../../../../public/img/doc4.jpg";
-import TeamImg2 from "../../../../../public/img/doc1.jpg";
-import TeamImg3 from "../../../../../public/img/doc3.jpg";
-import TeamImg4 from "../../../../../public/img/doc2.jpg";
+import TeamImg1 from "../../../../public/img/doc4.jpg";
+import TeamImg2 from "../../../../public/img/doc1.jpg";
+import TeamImg3 from "../../../../public/img/doc3.jpg";
+import TeamImg4 from "../../../../public/img/doc2.jpg";
 
 export default function Doctors() {
   const tPage = useTranslations("pages.doctors");

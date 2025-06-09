@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import HeroBg from "../../../../../../public/img/slider2.jpg";
+import HeroBg from "../../../../../public/img/slider2.jpg";
 
 export default function Sliders({ sectionName }) {
   const tHero = useTranslations("hero");

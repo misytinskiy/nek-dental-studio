@@ -4,12 +4,12 @@ import SectionHead from "@/components/SectionHead";
 import TeamCard from "@/components/TeamCard";
 import { useTranslations } from "next-intl";
 
-import SectionImg from "../../../../../../public/img/section-img2.png";
+import SectionImg from "../../../../../public/img/section-img2.png";
 
-import TeamImg1 from "../../../../../../public/img/doc4.jpg";
-import TeamImg2 from "../../../../../../public/img/doc1.jpg";
-import TeamImg3 from "../../../../../../public/img/doc3.jpg";
-import TeamImg4 from "../../../../../../public/img/doc2.jpg";
+import TeamImg1 from "../../../../../public/img/doc4.jpg";
+import TeamImg2 from "../../../../../public/img/doc1.jpg";
+import TeamImg3 from "../../../../../public/img/doc3.jpg";
+import TeamImg4 from "../../../../../public/img/doc2.jpg";
 
 export default function Team() {
   const t = useTranslations("team");

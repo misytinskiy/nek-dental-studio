@@ -5,7 +5,7 @@ import { useTranslations, useLocale } from "next-intl";
 
 export default function CallAction() {
   const t = useTranslations("cta");
-  const locale = useLocale(); // ← получаем текущий язык
+  const locale = useLocale();
 
   return (
     <section className="call-action overlay">

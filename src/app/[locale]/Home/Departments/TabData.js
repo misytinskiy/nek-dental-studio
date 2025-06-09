@@ -5,12 +5,12 @@ import React, { useState } from "react";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import { useTranslations } from "next-intl";
 
-import DepartmentImg1 from "../../../../../../public/img/therapy.JPG";
-import DepartmentImg2 from "../../../../../../public/img/implantology.JPG";
-import DepartmentImg3 from "../../../../../../public/img/orthopedics.JPG";
-import DepartmentImg4 from "../../../../../../public/img/orthodontics.JPG";
-import DepartmentImg5 from "../../../../../../public/img/surgery.PNG";
-import DepartmentImg6 from "../../../../../../public/img/pediatrics.JPG";
+import DepartmentImg1 from "../../../../../public/img/therapy.JPG";
+import DepartmentImg2 from "../../../../../public/img/implantology.JPG";
+import DepartmentImg3 from "../../../../../public/img/orthopedics.JPG";
+import DepartmentImg4 from "../../../../../public/img/orthodontics.JPG";
+import DepartmentImg5 from "../../../../../public/img/surgery.PNG";
+import DepartmentImg6 from "../../../../../public/img/pediatrics.JPG";
 
 const IMAGES = [
   DepartmentImg1,

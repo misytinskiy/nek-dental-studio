@@ -9,11 +9,6 @@ export default function NotFound() {
                 <h1>
                   404<span>Oop&apos;s sorry we can&apos;t find that page!</span>
                 </h1>
-                <p>
-                  Aenean eget sollicitudin lorem, et pretium felis. Nullam
-                  euismod diam libero, sed dapibus leo laoreet ut. Suspendisse
-                  potenti. Phasellus urna lacus
-                </p>
                 <form className="search-form">
                   <input placeholder="Search from Here" type="text" />
                   <button className="btn" type="submit">

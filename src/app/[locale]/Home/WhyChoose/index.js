@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 
-import WhyChooseImg1 from "../../../../../../public/img/WhyChooseImg1.JPG";
+import WhyChooseImg1 from "../../../../..//public/img/WhyChooseImg1.JPG";
 
 export default function WhyChoose() {
   const t = useTranslations("about");
