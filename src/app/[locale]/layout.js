@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
 
 export const runtime = "nodejs";
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 export function generateStaticParams() {
   return [{ locale: "ka" }, { locale: "en" }];
