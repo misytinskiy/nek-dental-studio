@@ -1,8 +1,9 @@
 "use client";
 
 import Breadcrumbs from "@/components/Breadcrumbs";
-import WorkHour from "../appointment/WorkHour";
+
 import { useTranslations } from "next-intl";
+import WorkHour from "./WorkHour";
 
 export default function Contact() {
   const t = useTranslations("pages.contact");

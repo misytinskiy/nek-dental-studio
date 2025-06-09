@@ -1,0 +1,16 @@
+.workhour-table .table th,
+.workhour-table .table td {
+  padding: 0.5rem 0.75rem;
+}
+
+.workhour-table .table tr:nth-child(even) {
+  background: #f9fafe;
+}
+
+.workhour-table .table tr:hover {
+  background: #eef6ff;
+}
+
+.workhour-table .table th {
+  font-weight: 500;
+}
