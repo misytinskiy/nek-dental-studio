@@ -5,5 +5,5 @@ import { useLocale } from "next-intl";
 export default function LocalizedLink({ href, ...props }) {
   const locale = useLocale();
   const fullPath = href === "/" ? `/${locale}` : `/${locale}${href}`;
-  return <Link href={fullPath} {...props} />;
+  return <Link href={fullPath} className={`no-underline`} {...props} />;
 }

@@ -162,7 +162,7 @@ Version:	1.1
     top: 0;
     height: 100%;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     opacity: 0.5;
   }
   .slider .single-slider h1 {
@@ -618,7 +618,7 @@ Version:	1.1
     top: 0;
     height: 100%;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     opacity: 0.5;
   }
   .slider .single-slider h1 {
@@ -1110,7 +1110,7 @@ Version:	1.1
     top: 0;
     height: 100%;
     width: 100%;
-    background: #fff;
+    /* background: #fff; */
     opacity: 0.5;
   }
   .slider .single-slider h1 {

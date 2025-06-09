@@ -36,10 +36,11 @@ export default function Topbar() {
 
           <div className="col-lg-6 col-md-7 col-12">
             <ul className="top-contact">
-              <li>
-                <i className="fa fa-phone"></i>+(995) 596 33 03 03
+              <li style={{ color: "#2b2f32" }}>
+                <i className="fa fa-phone"></i>
+                <Link href="tel:+995596330303">+(995) 596 33 03 03</Link>
               </li>
-              <li>
+              <li style={{ color: "#2b2f32" }}>
                 <i className="fa fa-envelope"></i>
                 <Link href="mailto:nekdentalstudio@gmail.com">
                   nekdentalstudio@gmail.com

@@ -30,3 +30,78 @@
   background: var(--primary-color);
   color: #fff;
 }
+
+/* a {
+  color: #2b2f32 !important;
+} */
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active {
+  text-decoration: none !important;
+}
+
+.slider .single-slider {
+  display: flex;
+  align-items: center; /* вертикальная центровка текста  */
+  justify-content: flex-start; /* при желании можно и center      */
+  height: 600px; /* как и было                     */
+  background-position: center center;
+}
+
+/* 2. Сбрасываем ручные отступы на средних и малых экранах */
+@media (max-width: 991.98px) {
+  .slider .single-slider .text {
+    margin: 0; /* ← убираем “120px сверху”       */
+    padding: 0 15px; /* обычный горизонтальный отступ  */
+    text-align: center; /* по желанию — центр текста       */
+    width: 100%;
+  }
+
+  /* если стрелки мешают — прячем ниже lg-брейкпоинта */
+  .slider .swiper-button-prev,
+  .slider .swiper-button-next {
+    display: none;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .slider .single-slider {
+    height: 420px;
+  }
+}
+
+@media (max-width: 991px) {
+  .why-choose .choose-right {
+    margin-bottom: 2rem;
+    text-align: center;
+    height: auto;
+  }
+
+  .why-choose .choose-right img {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 767px) {
+  .topbar .lang-btn {
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-bottom: 14px;
+  }
+
+  .topbar .row > .col-lg-6:first-child {
+    justify-content: center;
+  }
+}
+
+.header-inner .get-quote {
+  margin-top: 0; /* больше не нужен */
+  float: none; /* flex сам выровняет */
+}
+
+.header .logo {
+  margin-top: 0; /* можно обнулить */
+}

@@ -21,13 +21,14 @@ export default function WhyChoose() {
           </div>
 
           <div className="col-lg-6 col-12">
-            <div className="choose-right">
-              <div className="video-image">
+            <div className="choose-right mb-4 text-center">
+              <div>
                 <Image
                   src={WhyChooseImg1}
                   alt="our clinic"
                   width={571}
                   height={370}
+                  className="img-fluid rounded-4"
                 />
               </div>
             </div>

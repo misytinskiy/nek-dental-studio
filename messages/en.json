@@ -125,8 +125,8 @@
       "menu": "Doctors"
     },
     "pricing": {
-      "title": "Service",
-      "menu": "Service",
+      "title": "Services",
+      "menu": "Services",
       "heading": "Current Treatment Fees",
       "desc": "Choose a direction to see detailed prices for every service."
     },

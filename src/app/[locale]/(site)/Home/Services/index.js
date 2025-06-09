@@ -8,11 +8,16 @@ export default function Services() {
 
   const blocks = [
     { key: "advanced", icon: "icofont icofont-prescription" },
-    { key: "pediatric", icon: "icofont icofont-tooth" },
-    { key: "preventive", icon: "icofont icofont-heart-alt" },
-    { key: "aesthetic", icon: "icofont icofont-listening" },
-    { key: "emergency", icon: "icofont icofont-eye-alt" },
-    { key: "restorative", icon: "icofont icofont-blood" },
+
+    { key: "pediatric", icon: "icofont icofont-baby-milk-bottle" },
+
+    { key: "preventive", icon: "icofont icofont-shield" },
+
+    { key: "aesthetic", icon: "icofont icofont-drug" },
+
+    { key: "emergency", icon: "icofont icofont-ambulance-cross" },
+
+    { key: "restorative", icon: "icofont icofont-tooth" },
   ];
 
   return (

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import ThemeLogo from "../../../../public/img/logo.jpeg";
+import ThemeLogo from "../../../../public/img/logo.png";
 
 export default function Logo() {
   return (
@@ -10,11 +10,11 @@ export default function Logo() {
         <Image
           src={ThemeLogo}
           alt="Nek Dental Studio"
-          width={59}
-          height={30}
+          width={160}
+          height={120}
           priority
         />
-        <span className="logo-text">Nek&nbsp;Dental&nbsp;Studio</span>
+        {/* <span className="logo-text">Nek&nbsp;Dental&nbsp;Studio</span> */}
       </Link>
     </div>
   );

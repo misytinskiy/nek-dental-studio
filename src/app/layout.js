@@ -1,8 +1,7 @@
 import Script from "next/script";
-import Newsletter from "@/components/Newsletter";
-import Footer from "@/components/Footer";
+
 import ScrollTop from "@/components/ScrollTop";
-import ColorLayout from "@/components/ColorPlate/ColorLayout";
+
 import Preloader from "@/components/Preloader";
 import { Poppins } from "next/font/google";
 
@@ -41,11 +40,18 @@ export const metadata = {
   title: "Nek Dental Studio",
   description:
     "Modern dental clinic in the heart of Tbilisi, specializing in providing high-quality dental services.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+      </head>
       <body className={poppins.className}>
         <>
           <Preloader />
