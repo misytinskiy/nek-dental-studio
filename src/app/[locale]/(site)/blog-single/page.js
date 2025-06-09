@@ -6,10 +6,10 @@ import Comments from "./Comments";
 import Form from "./Form";
 import BlogSidebar from "@/components/BlogSidebar";
 
-import BlogImg1 from "../../../public/img/blog1.jpg";
-import BlogImg2 from "../../../public/img/blog2.jpg";
-import BlogImg3 from "../../../public/img/blog3.jpg";
-import AuthorImg from "../../../public/img/author1.jpg";
+import BlogImg1 from "../../../../../public/img/blog1.jpg";
+import BlogImg2 from "../../../../../public/img/blog2.jpg";
+import BlogImg3 from "../../../../../public/img/blog3.jpg";
+import AuthorImg from "../../../../../public/img/author1.jpg";
 import Header from "@/components/Header/Header";
 
 export default function BlogSingle() {

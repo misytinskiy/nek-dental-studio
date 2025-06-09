@@ -1,5 +1,5 @@
 import SectionHead from "@/components/SectionHead";
-import SectionImg from "../../../../public/img/section-img2.png";
+import SectionImg from "../../../../../../public/img/section-img2.png";
 import Sliders from "./Sliders";
 
 export default function Testimonial() {

@@ -4,9 +4,9 @@ import BlogCard from "@/components/BlogCard";
 import BlogSidebar from "@/components/BlogSidebar";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import BlogImg1 from "../../../public/img/blog1.jpg";
-import BlogImg2 from "../../../public/img/blog2.jpg";
-import BlogImg3 from "../../../public/img/blog3.jpg";
+import BlogImg1 from "../../../../../public/img/blog1.jpg";
+import BlogImg2 from "../../../../../public/img/blog2.jpg";
+import BlogImg3 from "../../../../../public/img/blog3.jpg";
 import Header from "@/components/Header/Header";
 
 export default function BlogGrid() {

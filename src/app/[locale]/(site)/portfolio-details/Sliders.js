@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Autoplay } from "swiper/modules";
 
-import PortoflioImg1 from "../../../public/img/call-bg.jpg";
+import PortoflioImg1 from "../../../../../public/img/call-bg.jpg";
 import Image from "next/image";
 
 export default function Sliders() {

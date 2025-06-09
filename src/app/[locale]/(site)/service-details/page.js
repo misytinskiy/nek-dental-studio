@@ -1,7 +1,7 @@
 import Image from "next/image";
 
 import Breadcrumbs from "@/components/Breadcrumbs";
-import ServiceImg from "../../../public/img/service-details-bg.jpg";
+import ServiceImg from "../../../../../public/img/service-details-bg.jpg";
 import Header from "@/components/Header/Header";
 
 export default function ServiceDetails() {

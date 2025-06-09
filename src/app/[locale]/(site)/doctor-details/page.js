@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Breadcrumbs from "@/components/Breadcrumbs";
 
-import DoctorImg from "../../../public/img/doctor-detail.jpg";
+import DoctorImg from "../../../../../public/img/doctor-detail.jpg";
 import Header from "@/components/Header/Header";
 
 export default function DoctorDetails() {

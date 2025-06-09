@@ -6,9 +6,9 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
 
-import TestimonialImg1 from "../../../../public/img/testi1.png";
-import TestimonialImg2 from "../../../../public/img/testi2.png";
-import TestimonialImg3 from "../../../../public/img/testi3.png";
+import TestimonialImg1 from "../../../../../../public/img/testi1";
+import TestimonialImg2 from "../../../../../../public/img/testi2.png";
+import TestimonialImg3 from "../../../../../../public/img/testi3.png";
 
 export default function Sliders() {
   const [testimonialSlider, settestimonialSlider] = useState([

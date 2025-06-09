@@ -5,11 +5,11 @@ import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-import ClientImg1 from "../../../../public/img/client1.png";
-import ClientImg2 from "../../../../public/img/client2.png";
-import ClientImg3 from "../../../../public/img/client3.png";
-import ClientImg4 from "../../../../public/img/client4.png";
-import ClientImg5 from "../../../../public/img/client5.png";
+import ClientImg1 from "../../../../../../public/img/client1.png";
+import ClientImg2 from "../../../../../../public/img/client2.png";
+import ClientImg3 from "../../../../../../public/img/client3.png";
+import ClientImg4 from "../../../../../../public/img/client4.png";
+import ClientImg5 from "../../../../../../public/img/client5.png";
 
 export default function Sliders() {
   const [clientSliders, setclientSliders] = useState([

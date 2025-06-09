@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import AuthorImg1 from "../../../public/img/author1.jpg";
-import AuthorImg2 from "../../../public/img/author2.jpg";
-import AuthorImg3 from "../../../public/img/author3.jpg";
+import AuthorImg1 from "../../../../../public/img/author1.jpg";
+import AuthorImg2 from "../../../../../public/img/author2.jpg";
+import AuthorImg3 from "../../../../../public/img/author3.jpg";
 
 export default function Comments() {
   return (

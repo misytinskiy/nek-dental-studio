@@ -1,7 +1,7 @@
 import Image from "next/image";
 import SectionHead from "@/components/SectionHead";
 
-import ContactImg from "../../../../public/img/contact-img.png";
+import ContactImg from "../../../../../../public/img/contact-img.png";
 import DateInput from "./DateInput";
 
 export default function Appoinment() {

@@ -7,10 +7,10 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay } from "swiper/modules";
 
-import PortfolioImg1 from "../../../../public/img/pf1.jpg";
-import PortfolioImg2 from "../../../../public/img/pf2.jpg";
-import PortfolioImg3 from "../../../../public/img/pf3.jpg";
-import PortfolioImg4 from "../../../../public/img/pf4.jpg";
+import PortfolioImg1 from "../../../../../../public/img/pf1.jpg";
+import PortfolioImg2 from "../../../../../../public/img/pf2.jpg";
+import PortfolioImg3 from "../../../../../../public/img/pf3.jpg";
+import PortfolioImg4 from "../../../../../../public/img/pf4.jpg";
 
 export default function Sliders() {
   const [portfolioSlider, setportfolioSlider] = useState([
