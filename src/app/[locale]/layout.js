@@ -4,7 +4,7 @@ import { setRequestLocale } from "next-intl/server";
 import Footer from "@/components/Footer";
 import Header from "@/components/Header/Header";
 
-export const runtime = "edge";
+export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
 
 export function generateStaticParams() {
