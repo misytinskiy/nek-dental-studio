@@ -40,9 +40,9 @@ export const metadata = {
   title: "Nek Dental Studio",
   description:
     "Modern dental clinic in the heart of Tbilisi, specializing in providing high-quality dental services.",
-  icons: {
-    icon: "/favicon.ico",
-  },
+  // icons: {
+  //   icon: "/favicon.ico",
+  // },
 };
 
 export default function RootLayout({ children }) {
