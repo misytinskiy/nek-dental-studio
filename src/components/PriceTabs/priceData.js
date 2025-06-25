@@ -1,27 +1,30 @@
+// src/components/PriceTabs/priceData.js
 const priceData = {
+  /* --------------------------------------------------  Т Е Р А П И Я  */
   Therapy: [
-    { key: "scaling", price: "100₾" },
     { key: "complexCleaning", price: "200₾" },
+    { key: "scaling", price: "100₾" },
     { key: "cleaningAirflow", price: "100₾" },
     { key: "deepCleaningPerio", price: "100₾" },
-    { key: "gumTreatmentVector", price: "600₾" },
-    { key: "visiography", price: "6₾" },
+    { key: "gumTreatmentVector", price: "750₾" },
     { key: "rootCanal", price: "100₾" },
-    { key: "periodontitis", price: "250₾" },
     { key: "healingMedOneCanal", price: "15₾" },
     { key: "marylandBridge", price: "350₾" },
+    // { key: "visiography",        price: "6₾"   }, // нет в документе
     { key: "cavityImprint", price: "50₾" },
     { key: "raberdamSystem", price: "15₾" },
     { key: "retractor", price: "15₾" },
-    { key: "caries", price: "150₾+" },
+    { key: "caries", price: "180₾" },
     { key: "restorationVeneer", price: "200₾" },
     { key: "restorationMocaf", price: "200₾" },
     { key: "siliconeKey", price: "85₾" },
     { key: "cultUnderCrown", price: "60₾" },
     { key: "endoWhitening", price: "60₾" },
     { key: "whiteningCaps", price: "550₾" },
+    { key: "consultation", price: "30₾" },
   ],
 
+  /* -----------------------------------------------  И М П Л А Н Т О Л О Г И Я  */
   Implantology: [
     { key: "implRoot", price: "1200₾" },
     { key: "implMisSeven", price: "1200₾" },
@@ -31,32 +34,33 @@ const priceData = {
     { key: "gumCorrection", price: "200-800₾" },
     { key: "sinusLiftOpen", price: "2200₾" },
     { key: "sinusLiftClosed", price: "1700₾" },
-    { key: "boneAugmentation", price: "1000₾+" },
+    { key: "boneAugmentation", price: "from 1000₾" },
     { key: "softTissueAugmentation", price: "150-600₾" },
     { key: "tempAbutment", price: "250₾" },
     { key: "gumShaper", price: "120₾" },
     { key: "surgicalTemplatePart", price: "350₾" },
     { key: "surgicalTemplateJaw", price: "350₾" },
+    { key: "consultationImpl", price: "50₾" },
   ],
 
+  /* -------------------------------------------------  О Р Т О П Е Д И Я  */
   Orthopedics: [
     { key: "ceramicVeneer", price: "600₾" },
     { key: "zirconCrown", price: "550₾" },
-    { key: "metalCrown", price: "250₾" },
-    { key: "metalCrownImplant", price: "450₾" },
     { key: "zirconImplant", price: "650₾" },
     { key: "microProsthesis", price: "150₾" },
-    { key: "removableProsthesis", price: "600-800₾" },
-    { key: "bugleProsthesis", price: "1500-2500₾" },
-    { key: "valplastProsthesis", price: "1500₾" },
+    { key: "removableProsthesis", price: "500₾" },
+    { key: "bugleProsthesis", price: "1300₾" },
+    { key: "valplastProsthesis", price: "1000₾" },
     { key: "tempToothOne", price: "80₾" },
-    { key: "tempToothMany", price: "50₾" },
     { key: "metalInlay", price: "150₾" },
     { key: "zirconInlay", price: "200₾" },
     { key: "arcProsthesisLock", price: "6000₾" },
     { key: "arcProsthesisAttach", price: "4500₾" },
+    { key: "consultationOrtho", price: "50₾" },
   ],
 
+  /* ---------------------------------------------  О Р Т О Д О Н Т И Я  */
   Orthodontics: [
     { key: "damonQ", price: "3800₾" },
     { key: "damonClear", price: "4200₾" },
@@ -65,15 +69,18 @@ const priceData = {
     { key: "inspireIce", price: "2200₾" },
     { key: "correctionStandard", price: "70₾" },
     { key: "correctionDamon", price: "100₾" },
-    { key: "attachBracket", price: "50₾" },
+    { key: "attachBracket", price: "25₾" },
     { key: "attachLostStd", price: "100₾" },
     { key: "attachLostDamon", price: "100₾" },
     { key: "retainerOneJaw", price: "150₾" },
     { key: "retainerCap", price: "200₾" },
     { key: "miniImplant", price: "450₾" },
     { key: "myobrace", price: "450₾" },
+    { key: "retainerRemoval", price: "100₾" },
+    { key: "consultation", price: "50₾" },
   ],
 
+  /* --------------------------------------------------  Х И Р У Р Г И Я  */
   Surgery: [
     { key: "regionalAnesthesia", price: "20₾" },
     { key: "infiltrativeAnesthesia", price: "15₾" },
@@ -88,6 +95,7 @@ const priceData = {
     { key: "suturing", price: "20₾" },
   ],
 
+  /* -------------------------------------------------  П Е Д И А Т Р И Я  */
   Pediatrics: [
     { key: "cleaning", price: "150₾" },
     { key: "cariesChild", price: "70₾" },
